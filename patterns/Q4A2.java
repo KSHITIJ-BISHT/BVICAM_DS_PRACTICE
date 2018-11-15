@@ -1,3 +1,8 @@
+/*
+
+complexity=n*n
+*/
+
 class Q4A2{
 
 	public static void main(String[] args) {

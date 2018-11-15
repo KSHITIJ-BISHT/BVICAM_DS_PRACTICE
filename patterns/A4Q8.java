@@ -2,7 +2,9 @@
 333222111
 332211
 321
-complexity =n*n
+
+complexity=n*n
+
 */
 class A4Q8
 {
@@ -25,4 +27,3 @@ class A4Q8
 
 	}
 }
- 

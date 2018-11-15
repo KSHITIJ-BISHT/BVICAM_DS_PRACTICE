@@ -1,8 +1,14 @@
+/*
+
+complexity=n*n
+*/
+
+
 class Q2A1
 {
    public static void main(String[] args) {
    	
-    for (int i=0;i<8;i++) {
+    for (int i=0;i<3*8;i++) {
       System.out.print("*");    	
     }
    	for (int i=0;i<=9/2 ;i++ ) {

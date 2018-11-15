@@ -1,3 +1,9 @@
+/*
+
+
+complexity=n*n
+*/
+
 class Q1A2
 {
 

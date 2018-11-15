@@ -1,3 +1,9 @@
+/*
+
+complexity=n*n
+*/
+
+
 class Q3A1{
 
 	public static void main(String[] args) {
