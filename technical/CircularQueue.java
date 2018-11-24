@@ -32,8 +32,20 @@ class CircularQueue{
      else
      {
      	rear=(rear+1)%arr.length;
-     	arr[rear]=ele;
+     	//arr[rear]=ele;
      	count++;
+   loop:for(int k=count-1;k>0;k++)
+        {
+        	if(ele>arr[k])
+        	{
+        		arr[k+1]=arr[k];
+        	}
+        	else
+        		break loop;
+        }
+        arr[k+1]=ele;
+
+
      	if(front==-1)
      		front=rear;
 
