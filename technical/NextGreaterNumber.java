@@ -12,7 +12,7 @@ class NextGreaterNumber{
     NextGreaterNumber(int value)
     {
     num=value;
-    length = String.valueOf(num).length();
+    length = (int) (Math.log10(num) + 1);
     arr=new int[length];
     nextGreatNum();
 
