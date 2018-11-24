@@ -82,7 +82,7 @@ class CircularQueue{
     }
 
 	public static void main(String[] args) {
-		queueInit(8);
+		queueInit(8); 
 		enqueue(1);
 		enqueue(2);
 		enqueue(3);
